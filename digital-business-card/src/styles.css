@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .app{
+    width: 250px;
+    height: 550px;
+    margin-top: 20px;
+    align-items: center;
+    background-color: #23252c;
+  }
+
+  .profile-pic{
+    padding: 20px;
+    display: block;
+    width: 100%;
+    height: 250px;
+    padding: 0;
+  }
+
+  .person-name{
+    color: white;
+    font-size: 20px;
+    padding: 15px 10px 3px 10px;
+  }
+
+  .career{
+    color: lightsalmon;
+    font-weight: light;
+    font-size: 10px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+  }
+
+  .button{
+  align-items: center;
+  display: flex;
+  padding-top: 15px;
+  justify-content: space-between; 
+  }
+  
+  .email-button{
+    padding: 5px;
+    width: 80px;
+    margin-left: 20px ;
+    border-radius: 5px;
+  }
+  .email-button:hover{
+    background-color: lightblue;
+  }
+
+  .linkedin-button{
+    padding: 5px;
+    width: 80px;
+    margin-right: 20px ;
+    border-radius: 5px;
+    background-color: lightblue;
+  }
+
+  .linkedin-button:hover{
+    background-color: rgb(43, 67, 226);
+  }
+
+  .about-title{
+    margin-top: 15px;
+    font-size: 15px;
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .about p{
+    font-size: 10px;
+    padding-left: 20px;
+    width: 200px;
+    color: white;
+  }
+
+  .interest-title{
+    margin-top: 15px;
+    font-size: 15px;
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .interest p{
+    font-size: 10px;
+    padding-left: 20px;
+    width: 200px;
+    color: white;
+  }
+
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: dimgrey;
+  }
+
